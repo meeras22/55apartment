@@ -88,4 +88,42 @@
             <img src="{{ asset('img/bg-three.png') }}" class="block w-full" alt="{{ env('APP_NAME') }}">
         </div>
     </div>
+
+    {{-- aprtments --}}
+    <div class="w-full bg-white  mx-auto p-4 py-8 md:py-20 lg:py-28 space-y-20 lg:space-y-36">
+        <div class="text-center space-y-6 max-w-screen-xl mx-auto">
+            <h1 class="text-2xl md:text-4xl font-libre">Our Apartments</h1>
+            <p>Discover the essence of luxury living with 55 Apartments. Each of our meticulously crafted Apartments offers
+                a blend of Comfort, Style and Exclusivity. Explore our projects to find your next home in some of the most
+                sought-after locations.</p>
+        </div>
+
+        {{-- aprt --}}
+        <div class="grid mx-auto max-w-screen-2xl grid-col-1 md:grid-cols-2 gap-8 lg:grid-cols-3">
+            <div class="relative">
+                <img class="w-full h-full object-cover block " src="{{ asset('img/section1.png') }}"
+                    alt="{{ env('APP_NAME') }}">
+                <span class="absolute p-4 bg-black bg-opacity-50 text-white w-full bottom-0 right-0 left-0 pb-6 ">L.Ai is
+                    our
+                    pioneer project
+                    designed for working professionals. A block of 8 units of 3 bedroom + BQ in Jahi.</span>
+            </div>
+            <div class="relative">
+                <img class="w-full h-full object-cover block " src="{{ asset('img/section2.png') }}"
+                    alt="{{ env('APP_NAME') }}">
+                <span class="absolute p-4 bg-black bg-opacity-50 text-white w-full bottom-0 right-0 left-0 pb-6 ">L.Aii is
+                    an
+                    8unit apartment
+                    block beautiful designed to cater for a modern family on an investment journey.span>
+            </div>
+            <div class="relative">
+                <img class="w-full h-full object-cover block " src="{{ asset('img/section3.png') }}"
+                    alt="{{ env('APP_NAME') }}">
+                <span class="absolute p-4 bg-black bg-opacity-50 text-white w-full bottom-0 right-0 left-0 pb-6 ">N.Yi is a
+                    unit
+                    designed with a
+                    lot of comfort and art. A very elegant home for a cosmopolitan family.</span>
+            </div>
+        </div>
+    </div>
 @endsection
