@@ -9,8 +9,8 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
-                one: "url('/img/bg-one.jpg')",
-                two: "url('/img/bg-two.jpg')",
+                one: "url('/img/bg-one.png')",
+                two: "url('/img/bg-two.png')",
             },
             fontFamily: {
                 cairo: ["Cairo"],
