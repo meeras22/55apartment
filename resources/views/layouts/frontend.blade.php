@@ -35,16 +35,16 @@
     $permissions = currentUserPermissions();
 @endphp --}}
 
-<body class="bg-background-50">
+<body class="font-monserat">
     {{-- navigation --}}
-    <nav class="bg-white z-50 border-gray-200 dark:bg-gray-900 fixed top-0 right-0 left-0">
+    <nav class="bg-transparent fixed top-0 right-0 left-0 w-screen z-50 border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="{{ asset('img/55appartment.png') }}" class="h-20 md:h-24" alt="{{ env('APP_NAME') }}" />
+                <img src="{{ asset('img/whitelogo.png') }}" class="h-20 md:h-24" alt="{{ env('APP_NAME') }}" />
                 {{-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span> --}}
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -53,42 +53,44 @@
                         d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
-            <div class="hidden uppercase w-full md:block md:w-auto" id="navbar-default">
+            <div class="hidden uppercase w-full md:block md:w-auto bg-transparent" id="navbar-default">
                 <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-white bg-primary-700 rounded md:bg-transparent md:p-0"
+                            class="block hover:text-primary py-2 px-3 text-white rounded md:bg-transparent md:p-0"
                             aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="/projects"
-                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 md:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">project</a>
+                            class="block py-2 px-3 text-white rounded md:border-0 md:p-0 hover:text-primary">project</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 md:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+                            class="block py-2 px-3 text-white rounded md:border-0 md:p-0 hover:text-primary">About
                             us</a>
                     </li>
                     <li>
 
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 md:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                            class="block py-2 px-3 text-white rounded md:border-0 md:p-0 hover:text-primary">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    {{-- @yield('header') --}}
 
     <main class="">
-        <div class="-mt-16 rounded-lg">
-            @yield('contents')
+        <div class="rounded-lg text-black">
+            @yield('content')
+
             {{ $slot ?? '' }}
         </div>
     </main>
 
-    <div class="absolute bottom-0 w-full py-3 mt-40 text-sm text-center text-white bg-black">
+    <div class=" bottom-0 w-full py-3 text-sm text-center text-white bg-black">
         &copy; 2020-{{ date('Y') }}
         <a href="https://bowofade.com" class="font-semibold text-primary hover:underline"
             target="_blank">{{ env('APP_NAME') }}</a>.

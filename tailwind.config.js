@@ -13,7 +13,8 @@ export default {
                 two: "url('/img/bg-two.png')",
             },
             fontFamily: {
-                cairo: ["Cairo"],
+                monserat: ["Montserrat"],
+                libre: ["Libre Baskerville"],
             },
             colors: {
                 primary: {
