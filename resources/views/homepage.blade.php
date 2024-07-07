@@ -82,5 +82,10 @@
                 </div>
             </div>
         </div>
+
+        {{-- image segment --}}
+        <div class="w-full">
+            <img src="{{ asset('img/bg-three.png') }}" class="block w-full" alt="{{ env('APP_NAME') }}">
+        </div>
     </div>
 @endsection
