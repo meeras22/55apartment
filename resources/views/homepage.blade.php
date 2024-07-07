@@ -38,8 +38,49 @@
                     sophistication.</p>
             </div>
             <d class="w-full bg-cover bg-center" style="background-image: url('/img/bg-two.png')">
-
             </d>
+        </div>
+
+        {{-- another segment --}}
+        <div class="py-8 w-full md:pt-16 space-y-16 p-6 pb-40 lg:pb-72 bg-cover bg-center"
+            style="background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/spiral-bg.png')">
+            <h1 class="text-2xl md:text-4xl text-center font-libre">Signature</h1>
+            <div class="w-full  mx-auto flex max-w-5xl xl:max-w-6xl flex-col md:flex-row justify-between">
+                <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
+                    <span class="inline-block mx-auto">
+                        <img src="{{ asset('img/return_icon.png') }}" alt="" class="w-12 xl:w-16">
+                    </span>
+                    <div class="space-y-2 lg:space-y-3">
+                        <h1 class="font-libre text-lg">Return On Investment</h1>
+                        <p>Any product with inherent value at the right price is a formidable asset especially one delivered
+                            in limited quantity like our apartments. Our pricing remains highly competitive in the market.
+                            Our pledge to maintaining a stable pricing of 55 Million today, tomorrow and forever assures
+                            investors a guaranteed re-sell value in the secondary market.</p>
+                    </div>
+                </div>
+                <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
+                    <span class="inline-block mx-auto">
+                        <img src="{{ asset('img/quality_icon.png') }}" alt="" class="w-12 xl:w-16">
+                    </span>
+                    <div class="space-y-2 lg:space-y-3">
+                        <h1 class="font-libre text-lg">Quality and Space</h1>
+                        <p>We apply the best building practices in our construction. We have a team of experienced engineers
+                            and architects dedicated to building lifetime homes to our clients. Visit us anytime for
+                            inspection.</p>
+                    </div>
+                </div>
+                <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
+                    <span class="inline-block mx-auto">
+                        <img src="{{ asset('img/forward_icon.png') }}" alt="" class="w-12 xl:w-16">
+                    </span>
+                    <div class="space-y-2 lg:space-y-3">
+                        <h1 class="font-libre text-lg">Forward Thinking Innovation</h1>
+                        <p>At 55 Apartments, we are driven by a penchant for delivering irresistible excellence in every
+                            sqm. From a world class design to picking the right premium location to a pristine construction,
+                            we strive to consistently raise our bar, no matter how high it was.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
