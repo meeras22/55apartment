@@ -1,8 +1,7 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return Hash::make('Doyin02');
-});
+Route::get('/', [PageController::class, 'homepage']);
