@@ -7,12 +7,12 @@
             <img src="{{ asset('img/bg-one.png') }}" alt="{{ env('APP_NAME') }}" class="block object-cover w-full h-auto">
             <div class="w-full py-8 space-y-20 bg-fixed bg-center bg-no-repeat bg-contain lg:space-y-24"
                 style="background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/spiral-bg.png')">
-                <di class="py-4 space-y-4 font-libre">
+                <div class="py-4 space-y-4 font-libre">
                     <h1 class="pt-4 text-3xl lg:text-4xl">L.A</h1>
                     <p class="text-2xl lg:text-3xl">
                         <span class="font-bold">Location:</span> Jahi, Abuja
                     </p>
-                </di>
+                </div>
 
                 {{-- about --}}
                 <div class="space-y-6">
