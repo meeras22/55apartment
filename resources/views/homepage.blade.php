@@ -42,9 +42,12 @@
         </div>
 
         {{-- another segment --}}
-        <div class="w-full p-6 py-8 pb-40 space-y-16 bg-center bg-cover md:pt-16 lg:pb-72"
+        <div class="w-full p-6 py-8 pb-40 space-y-16 bg-center bg-cover lg:space-y-20 md:pt-16 lg:pb-72"
             style="background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/spiral-bg.png')">
-            <h1 class="text-2xl text-center md:text-4xl font-libre">Signature</h1>
+            <div class="mx-auto space-y-6 text-center">
+                <h1 class="text-2xl text-center md:text-4xl font-libre">Signature</h1>
+                <img src="{{ asset('img/signature.png') }}" alt="signature" class="block mx-auto mt-6 md:hidden">
+            </div>
             <div class="flex flex-col justify-between w-full max-w-5xl gap-12 mx-auto xl:max-w-6xl md:flex-row">
                 <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
                     <span class="inline-block mx-auto">
@@ -103,7 +106,9 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section1.png') }}"
                     alt="{{ env('APP_NAME') }}">
-                <span class="absolute bottom-0 left-0 right-0 w-full p-4 pb-6 text-white bg-black bg-opacity-50 ">L.Ai is
+                <span
+                    class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12 ">L.Ai
+                    is
                     our
                     pioneer project
                     designed for working professionals. A block of 8 units of 3 bedroom + BQ in Jahi.</span>
@@ -111,7 +116,8 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section2.png') }}"
                     alt="{{ env('APP_NAME') }}">
-                <span class="absolute bottom-0 left-0 right-0 w-full p-4 pb-6 text-white bg-black bg-opacity-50"> L.Aii is
+                <span class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">
+                    L.Aii is
                     an
                     8unit apartment
                     block beautiful designed to cater for a modern family on an investment journey.</span>
@@ -119,7 +125,9 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section3.png') }}"
                     alt="{{ env('APP_NAME') }}">
-                <span class="absolute bottom-0 left-0 right-0 w-full p-4 pb-6 text-white bg-black bg-opacity-50">N.Yi is a
+                <span
+                    class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">N.Yi
+                    is a
                     unit
                     designed with a
                     lot of comfort and art. A very elegant home for a cosmopolitan family.</span>
