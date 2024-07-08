@@ -65,7 +65,7 @@
                     </li>
                     <li>
                         <a href="/projects"
-                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : '' }} {{ request()->is('/projects') ? 'text-primary' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">project</a>
+                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : '' }} {{ request()->is('/projects') ? 'text-primary' : '' }} rounded md:border-0 md:p-0 hover:text-primary">project</a>
                     </li>
                     <li>
                         <a href="#"
@@ -94,7 +94,7 @@
 
     <footer class="w-full pt-12 bg-[#F7F7F7]">
         <div
-            class="flex flex-col flex-wrap max-w-screen-xl p-4 pb-24 mx-auto mt-4 md:pb-40 md:flex-row md:justify-between">
+            class="flex flex-col flex-wrap max-w-screen-xl p-4 pb-24 mx-auto mt-4 space-y-8 md:pb-40 md:flex-row md:justify-between">
             <div class="w-4/5 md:w-2/5 lg:w-1/4">
                 <img src="{{ asset('img/colorlogo.png') }}" alt="" class="block w-auto h-20 lg:h-24">
             </div>
