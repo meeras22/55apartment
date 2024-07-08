@@ -12,7 +12,7 @@
                     Apartment at
                     ₦55
                     MILLION</h1>
-                <a href="#"
+                <a href="/#about"
                     class="inline-block px-6 py-2 mx-auto text-white border-2 border-white rounded-full font-monserat">About
                     Us</a>
             </div>
@@ -20,11 +20,12 @@
 
         {{-- another sections --}}
 
-        <div class="grid grid-cols-1 py-8 bg-white lg:grid-cols-2 lg:py-12">
+        <div id="about" class="grid grid-cols-1 py-8 bg-white lg:grid-cols-2 lg:py-12">
             <div class="p-6 space-y-4 text-center sm:p-16 md:pr-24 md:pl-30 lg:pl-40 lg:pr-32">
                 <h1 class="text-2xl md:text-4xl font-libre">ABOUT 55 APARTMENTS</h1>
-                <p class="text-left lg:text-lg">55 Apartments is a premier subsidiary of <span
-                        class="font-medium text-primary">LeadRoyale Investment Limited</span>, an
+                <p class="text-left lg:text-lg">55 Apartments is a premier subsidiary of <a target="_blank"
+                        href="https://www.leadroyale.com/" class="font-medium text-primary">LeadRoyale Investment
+                        Limited</a>, an
                     esteemed
                     real estate firm with
                     operations in Abuja and London. With a core vision of crafting ultra- luxury housing, driven by our
@@ -93,7 +94,7 @@
     </div>
 
     {{-- aprtments --}}
-    <div class="w-full p-4 py-8 mx-auto space-y-20 bg-white md:py-20 lg:py-28 lg:space-y-36">
+    <div id="projects" class="w-full p-4 py-8 mx-auto space-y-20 bg-white md:py-20 lg:py-28 lg:space-y-36">
         <div class="max-w-screen-xl mx-auto space-y-6 text-center">
             <h1 class="text-2xl md:text-4xl font-libre">Our Apartments</h1>
             <p>Discover the essence of luxury living with 55 Apartments. Each of our meticulously crafted Apartments offers

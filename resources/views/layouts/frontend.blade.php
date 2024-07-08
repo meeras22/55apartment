@@ -64,18 +64,18 @@
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="/projects"
+                        <a href="/#projects"
                             class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : '' }} {{ request()->is('/projects') ? 'text-primary' : '' }} rounded md:border-0 md:p-0 hover:text-primary">project</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="/#about"
                             class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">About
                             us</a>
                     </li>
                     <li>
 
                     <li>
-                        <a href="#"
+                        <a href="/#contact"
                             class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">Contact</a>
                     </li>
                 </ul>
@@ -92,7 +92,7 @@
         </div>
     </main>
 
-    <footer class="w-full pt-12 bg-[#F7F7F7]">
+    <footer id="contact" class="w-full pt-12 bg-[#F7F7F7]">
         <div
             class="flex flex-col flex-wrap max-w-screen-xl p-4 pb-24 mx-auto mt-4 space-y-8 md:pb-40 md:flex-row md:justify-between">
             <div class="w-4/5 md:w-2/5 lg:w-1/4">
@@ -106,13 +106,13 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/projects">Projects</a>
+                        <a href="/#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="">About Us</a>
+                        <a href="/#about">About Us</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="/#contact">Contact</a>
                     </li>
                 </ul>
             </div>
