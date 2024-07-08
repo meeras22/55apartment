@@ -45,7 +45,7 @@
         <div class="w-full p-6 py-8 pb-40 space-y-16 bg-center bg-cover md:pt-16 lg:pb-72"
             style="background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/spiral-bg.png')">
             <h1 class="text-2xl text-center md:text-4xl font-libre">Signature</h1>
-            <div class="flex flex-col justify-between w-full max-w-5xl mx-auto xl:max-w-6xl md:flex-row">
+            <div class="flex flex-col justify-between w-full max-w-5xl gap-12 mx-auto xl:max-w-6xl md:flex-row">
                 <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
                     <span class="inline-block mx-auto">
                         <img src="{{ asset('img/return_icon.png') }}" alt="" class="w-12 xl:w-16">
