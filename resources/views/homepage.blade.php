@@ -107,12 +107,12 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section1.png') }}"
                     alt="{{ env('APP_NAME') }}">
-                <span
+                <a href="/projects"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12 ">L.Ai
                     is
                     our
                     pioneer project
-                    designed for working professionals. A block of 8 units of 3 bedroom + BQ in Jahi.</span>
+                    designed for working professionals. A block of 8 units of 3 bedroom + BQ in Jahi.</a>
             </div>
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section2.png') }}"
