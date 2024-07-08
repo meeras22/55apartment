@@ -37,14 +37,16 @@
 
 <body class="font-monserat">
     {{-- navigation --}}
-    <nav class="fixed top-0 left-0 right-0 z-50 w-screen bg-transparent border-gray-200 dark:bg-gray-900">
-        <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
+    <nav
+        class="{{ request()->is('/') ? 'fixed' : 'bg-white' }} top-0 left-0 right-0 z-50 w-screen bg-transparent border-gray-200 dark:bg-gray-900">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="{{ asset('img/whitelogo.png') }}" class="h-20 md:h-24" alt="{{ env('APP_NAME') }}" />
+                <img src="{{ request()->is('/') ? asset('img/whitelogo.png') : asset('img/colorlogo.png') }}"
+                    class="h-20 md:h-24" alt="{{ env('APP_NAME') }}" />
                 {{-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span> --}}
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
+                class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm {{ request()->is('/') ? 'text-white' : 'text-primary' }} rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -57,24 +59,24 @@
                 <ul
                     class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="#"
-                            class="block px-3 py-2 text-white rounded hover:text-primary md:bg-transparent md:p-0"
+                        <a href="/"
+                            class="block px-3 py-2 {{ request()->is('/') ? 'text-primary' : 'text-primary-DARK' }} rounded hover:text-primary md:bg-transparent md:p-0"
                             aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="/projects"
-                            class="block px-3 py-2 text-white rounded md:border-0 md:p-0 hover:text-primary">project</a>
+                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : '' }} {{ request()->is('/projects') ? 'text-primary' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">project</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block px-3 py-2 text-white rounded md:border-0 md:p-0 hover:text-primary">About
+                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">About
                             us</a>
                     </li>
                     <li>
 
                     <li>
                         <a href="#"
-                            class="block px-3 py-2 text-white rounded md:border-0 md:p-0 hover:text-primary">Contact</a>
+                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -131,21 +133,31 @@
             </div>
         </div>
         <div
-            class="flex-wrap justify-center w-full max-w-screen-xl py-3 mx-auto space-y-6 text-sm text-center md:justify-between ">
+            class="flex flex-col items-center justify-center w-full max-w-screen-xl py-3 pb-6 mx-auto space-y-6 text-sm text-center md:flex-row md:justify-between ">
             <p class="">
                 &copy; 2020-{{ date('Y') }}
                 <a href="https://bowofade.com" class="font-semibold text-primary hover:underline"
                     target="_blank">{{ env('APP_NAME') }}</a>
             </p>
-            <ul>
+            <ul class="flex justify-center pb-6 space-x-4">
                 <li class="">
-                    <a href=""></a>
+                    <a href="">
+                        <i class="text-xl fa-brands fa-facebook"></i>
+                    </a>
                 </li>
                 <li class="">
-                    <a href=""></a>
+                    <a href=""><i class="text-xl fa-brands fa-x-twitter"></i></a>
                 </li>
                 <li class="">
-                    <a href=""></a>
+                    <a href=""><i class="text-xl fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="">
+                    <a href=""><i class="text-xl fa-brands fa-youtube"></i></a>
+                </li>
+                <li class="">
+                    <a href="">
+                        <i class="text-xl fa-brands fa-instagram"></i>
+                    </a>
                 </li>
             </ul>
         </div>

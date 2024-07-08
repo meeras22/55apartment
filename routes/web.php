@@ -5,3 +5,4 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'homepage']);
+Route::get('/projects', [PageController::class, 'projects']);
