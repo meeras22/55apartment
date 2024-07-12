@@ -59,7 +59,7 @@
                         <div class="space-y-3 text-2xl text-gray-700 uppercase font-libre">
                             <p>40</p>
                             <p class="font-medium">MINS</p>
-                            <p class="t">international airport</p>
+                            <p class="text-xl">international airport</p>
                             <hr class="p-[2px] mx-auto bg-primary w-[100px]">
                         </div>
 
@@ -69,7 +69,7 @@
                         <div class="space-y-3 text-2xl text-gray-700 uppercase font-libre">
                             <p>10</p>
                             <p class="font-medium">MINS</p>
-                            <p class="t">central business district</p>
+                            <p class="text-xl">central business district</p>
                             <hr class="p-[2px] mx-auto bg-primary w-[100px]">
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                         <div class="space-y-3 text-2xl text-gray-700 uppercase font-libre">
                             <p>10</p>
                             <p class="font-medium">MINS</p>
-                            <p class="t">education and institution</p>
+                            <p class="text-xl">education and institution</p>
                             <hr class="p-[2px] mx-auto bg-primary w-[100px]">
                         </div>
                     </div>
