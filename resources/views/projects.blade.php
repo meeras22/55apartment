@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full pb-12 space-y-6 text-center md:space-y-12">
+        <div class="w-full pb-20 space-y-6 text-center md:space-y-12">
             <h1 class="text-3xl font-libre">Progress</h1>
             <div class="max-w-5xl mx-auto">
                 <img src="{{ asset('img/progress.png') }}" alt="progress" class="block w-full">
