@@ -54,7 +54,7 @@
             <div class="w-full pt-16 space-y-16 text-center md:space-y-32">
                 <h1 class="text-2xl md:text-4xl font-libre">Map</h1>
                 <div class="flex flex-wrap justify-center pb-8 gap-y-24 md:justify-between md:pb-16">
-                    <div class="max-w-[250px] space-y-5 mx-auto flex flex-col items-center">
+                    <div class="max-w-[350px] space-y-5 mx-auto flex flex-col items-center">
                         <img src="{{ asset('img/plane.png') }}" alt="map" class="block w-8 mx-auto">
                         <div class="space-y-3 text-2xl text-gray-700 uppercase font-libre">
                             <p>40</p>
@@ -64,7 +64,7 @@
                         </div>
 
                     </div>
-                    <div class="max-w-[250px]  space-y-5  mx-auto flex flex-col items-center">
+                    <div class="max-w-[350px]  space-y-5  mx-auto flex flex-col items-center">
                         <img src="{{ asset('img/bag.png') }}" alt="map" class="block w-8 mx-auto">
                         <div class="space-y-3 text-2xl text-gray-700 uppercase font-libre">
                             <p>10</p>
@@ -73,7 +73,7 @@
                             <hr class="p-[2px] mx-auto bg-primary w-[100px]">
                         </div>
                     </div>
-                    <div class="max-w-[250px]  space-y-5  mx-auto flex flex-col items-center">
+                    <div class="max-w-[350px]  space-y-5  mx-auto flex flex-col items-center">
                         <img src="{{ asset('img/cap.png') }}" alt="map" class="block w-8 mx-auto">
                         <div class="space-y-3 text-2xl text-gray-700 uppercase font-libre">
                             <p>10</p>
