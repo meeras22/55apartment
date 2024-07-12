@@ -47,7 +47,7 @@
             style="background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/spiral-bg.png')">
             <div class="mx-auto space-y-6 text-center">
                 <h1 class="text-2xl text-center md:text-4xl font-libre">Signature</h1>
-                <img src="{{ asset('img/signature.png') }}" alt="signature" class="block mx-auto mt-6 md:hidden">
+                {{-- <img src="{{ asset('img/signature.png') }}" alt="signature" class="block mx-auto mt-6 md:hidden"> --}}
             </div>
             <div class="flex flex-col justify-between w-full max-w-5xl gap-12 mx-auto xl:max-w-6xl md:flex-row">
                 <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
