@@ -37,7 +37,7 @@
                     <img src="{{ asset('img/gallery3.png') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
                 </div>
             </div>
-            <div class="mx-auto space-y-20 text-center bg-white max-w-7xl">
+            <div class="max-w-5xl mx-auto space-y-20 text-center bg-white">
                 <h1 class="text-2xl md:text-4xl font-libre">Floor Plans</h1>
                 <img src="{{ asset('img/floor.png') }}" alt="{{ env('APP_NAME') }}" class="block w-full border-dashed">
 
