@@ -14,7 +14,7 @@
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite(['resources/css/app.css', 'resources/sass/main.scss', 'resources/js/app.js'])
-    <title>Roomstatus</title>
+    <title>55- Appartments</title>
     {{-- @livewireStyles --}}
     <style>
         [x-cloak] {
