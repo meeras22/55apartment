@@ -2,7 +2,7 @@
 @section('content')
     {{-- hero section --}}
     <div class="p-0">
-        <header class="w-full px-4 py-20 bg-center bg-cover bg-one lg:px-0 md:py-60 lg:py-72 lg:py-80"
+        <header class="w-full px-4 bg-center bg-cover py-28 bg-one lg:px-0 md:py-60 lg:py-72 xl:py-80"
             style="background-image: url('/img/bg-one.png')">
             <div class="max-w-screen-xl pt-12 mx-auto space-y-6 text-center lg:pt-0 md:space-y-8 lg:space-y-12">
                 <h2 class="text-xl uppercase font-monserat text-primary">Premium</h2>
