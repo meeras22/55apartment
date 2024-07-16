@@ -22,7 +22,7 @@
 
         <div id="about" class="grid grid-cols-1 py-8 bg-white lg:grid-cols-2 lg:py-12">
             <div class="p-6 space-y-4 text-center sm:p-16 md:pr-24 md:pl-30 lg:pl-40 lg:pr-32">
-                <h1 class="text-2xl md:text-4xl font-libre">ABOUT 55 APARTMENTS</h1>
+                <h1 class="text-2xl text-left md:text-4xl font-libre">ABOUT 55 APARTMENTS</h1>
                 <p class="text-left lg:text-lg">55 Apartments is a premier subsidiary of <a target="_blank"
                         href="https://www.leadroyale.com/" class="font-medium text-primary">LeadRoyale Investment
                         Limited</a>, an

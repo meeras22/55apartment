@@ -31,7 +31,7 @@
             font-weight: 300;
         }
 
-        @media@media (max-width: 600px) {
+        @media (max-width: 600px) {
             #mobilenav {
                 background-color: white !important;
                 /* background-size: cover; */
