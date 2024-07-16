@@ -26,6 +26,10 @@
             color: black !important;
             text-decoration: underline !important;
         }
+
+        body {
+            font-weight: 300;
+        }
     </style>
     {{-- @livewireStyles --}}
     @stack('styles')
@@ -37,15 +41,15 @@
 
 <body class="font-monserat">
     {{-- navigation --}}
-    <nav class="top-0 left-0 right-0 z-50 w-screen bg-transparent border-gray-200 dark:bg-gray-900">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 w-screen border-gray-200 navbar">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ request()->is('/') ? asset('img/whitelogo.png') : asset('img/colorlogo.png') }}"
-                    class="h-20 md:h-24" alt="{{ env('APP_NAME') }}" />
+                    class="h-20 md:h-24 logo" alt="{{ env('APP_NAME') }}" />
                 {{-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span> --}}
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm {{ request()->is('/') ? 'text-white' : 'text-primary' }} rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
+                class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm rounded-lg button md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -54,9 +58,9 @@
                         d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
-            <div class="hidden w-full uppercase bg-transparent md:block md:w-auto" id="navbar-default">
+            <div class="hidden w-full uppercase md:block md:w-auto" id="navbar-default">
                 <ul
-                    class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
                         <a href="/" class="block px-3 py-2 rounded hover:text-primary md:bg-transparent md:p-0"
                             aria-current="page">Home</a>
@@ -164,12 +168,18 @@
     <script>
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
-            if (window.scrollY >= 75) {
+            const button = document.querySelector('.button');
+            const image = document.querySelector('.logo');
+            navbar.style.color = '#fff';
+            if (window.scrollY >= 100) {
                 navbar.style.backgroundColor = '#fff'; // Change to your desired color
                 navbar.style.color = '#000'; // Change to your desired color
+                button.style.color = '#bba260'; // Change to your desired color
+                image.src = './img/colorlogo.png';
             } else {
                 navbar.style.backgroundColor = 'transparent'; // Reset to transparent
                 navbar.style.color = '#fff'; // Reset to transparent
+                image.src = './img/whitelogo.png';
             }
         });
     </script>
