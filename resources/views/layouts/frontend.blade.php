@@ -30,6 +30,13 @@
         body {
             font-weight: 300;
         }
+
+        @media@media (max-width: 600px) {
+            #mobilenav {
+                background-color: white !important;
+                /* background-size: cover; */
+            }
+        }
     </style>
     {{-- @livewireStyles --}}
     @stack('styles')
@@ -58,7 +65,7 @@
                         d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
-            <div class="hidden w-full uppercase md:block md:w-auto" id="navbar-default">
+            <div id="mobilenav" class="hidden w-full uppercase md:block md:w-auto" id="navbar-default">
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
@@ -171,7 +178,7 @@
             const button = document.querySelector('.button');
             const image = document.querySelector('.logo');
             navbar.style.color = '#fff';
-            if (window.scrollY >= 100) {
+            if (window.scrollY >= 50) {
                 navbar.style.backgroundColor = '#fff'; // Change to your desired color
                 navbar.style.color = '#000'; // Change to your desired color
                 button.style.color = '#bba260'; // Change to your desired color
