@@ -32,7 +32,7 @@
         }
 
         @media (max-width: 600px) {
-            #mobilenav {
+            #navbar-default {
                 background-color: white !important;
                 /* background-size: cover; */
             }
@@ -65,7 +65,7 @@
                         d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
-            <div id="mobilenav" class="hidden w-full uppercase md:block md:w-auto" id="navbar-default">
+            <div class="hidden w-full uppercase md:block md:w-auto" id="navbar-default">
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
