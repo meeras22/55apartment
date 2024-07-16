@@ -48,7 +48,7 @@
 
 <body class="font-monserat">
     {{-- navigation --}}
-    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 w-screen border-gray-200 navbar">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 w-screen border-gray-200 navbar" style="color:white">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ request()->is('/') ? asset('img/whitelogo.png') : asset('img/colorlogo.png') }}"
