@@ -59,24 +59,22 @@
                 <ul
                     class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="/"
-                            class="block px-3 py-2 {{ request()->is('/') ? 'text-primary' : 'text-primary-DARK' }} rounded hover:text-primary md:bg-transparent md:p-0"
+                        <a href="/" class="block px-3 py-2 rounded hover:text-primary md:bg-transparent md:p-0"
                             aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="/#projects"
-                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : '' }} {{ request()->is('/projects') ? 'text-primary' : '' }} rounded md:border-0 md:p-0 hover:text-primary">project</a>
+                            class="block px-3 py-2 rounded md:border-0 md:p-0 hover:text-primary">project</a>
                     </li>
                     <li>
-                        <a href="/#about"
-                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">About
+                        <a href="/#about" class="block px-3 py-2 rounded md:border-0 md:p-0 hover:text-primary">About
                             us</a>
                     </li>
                     <li>
 
                     <li>
                         <a href="/#contact"
-                            class="block px-3 py-2 {{ request()->is('/') ? 'text-white' : 'text-primary-DARK' }} rounded md:border-0 md:p-0 hover:text-primary">Contact</a>
+                            class="block px-3 py-2 rounded md:border-0 md:p-0 hover:text-primary">Contact</a>
                     </li>
                 </ul>
             </div>
