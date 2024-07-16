@@ -37,8 +37,7 @@
 
 <body class="font-monserat">
     {{-- navigation --}}
-    <nav
-        class="{{ request()->is('/') ? 'fixed' : 'bg-white' }} top-0 left-0 right-0 z-50 w-screen bg-transparent border-gray-200 dark:bg-gray-900">
+    <nav class="top-0 left-0 right-0 z-50 w-screen bg-transparent border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ request()->is('/') ? asset('img/whitelogo.png') : asset('img/colorlogo.png') }}"
@@ -162,6 +161,18 @@
     </footer>
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY >= 75) {
+                navbar.style.backgroundColor = '#fff'; // Change to your desired color
+                navbar.style.color = '#000'; // Change to your desired color
+            } else {
+                navbar.style.backgroundColor = 'transparent'; // Reset to transparent
+                navbar.style.color = '#fff'; // Reset to transparent
+            }
+        });
+    </script>
     @stack('scripts')
     <script>
         window.addEventListener('swal:success', function(e) {
