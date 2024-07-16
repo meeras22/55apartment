@@ -117,21 +117,22 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section2.png') }}"
                     alt="{{ env('APP_NAME') }}">
-                <span class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">
+                <a href="/projects"
+                    class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">
                     L.Aii is
                     an
                     8unit apartment
-                    block beautiful designed to cater for a modern family on an investment journey.</span>
+                    block beautiful designed to cater for a modern family on an investment journey.</a>
             </div>
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/section3.png') }}"
                     alt="{{ env('APP_NAME') }}">
-                <span
+                <a href="/projects"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">N.Yi
                     is a
                     unit
                     designed with a
-                    lot of comfort and art. A very elegant home for a cosmopolitan family.</span>
+                    lot of comfort and art. A very elegant home for a cosmopolitan family.</a>
             </div>
         </div>
 
