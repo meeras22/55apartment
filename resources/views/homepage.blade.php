@@ -3,7 +3,7 @@
     {{-- hero section --}}
     <div class="p-0">
         <header class="w-full px-4 py-48 bg-center bg-cover bg-one lg:px-0 md:py-60 lg:py-72 xl:py-80"
-            style="background-image: url('/img/bg-one.png')">
+            style="background-image: url('/img/hero.jpg')">
             <div class="max-w-screen-xl pt-12 mx-auto space-y-6 text-center lg:pt-0 md:space-y-8 lg:space-y-12">
                 <h2 class="text-xl uppercase font-monserat text-primary">Premium</h2>
                 <h1 class="font-monserat font-medium w-[80%] lg:max-w-[1000px] mx-auto  text-white text-2xl lg:text-6xl">
@@ -38,7 +38,7 @@
                     or make it your home, you are guaranteed an incredible design experience that epitomizes luxury and
                     sophistication.</p>
             </div>
-            <d class="w-full bg-center bg-cover" style="background-image: url('/img/bg-two.png')">
+            <d class="w-full bg-center bg-cover" style="background-image: url('/img/bg-two.JPG')">
             </d>
         </div>
 
@@ -89,7 +89,7 @@
 
         {{-- image segment --}}
         <div class="w-full">
-            <img src="{{ asset('img/bg-three.png') }}" class="block w-full" alt="{{ env('APP_NAME') }}">
+            <img src="{{ asset('img/bg3.jpg') }}" class="block object-cover w-full h-auto" alt="{{ env('APP_NAME') }}">
         </div>
     </div>
 
@@ -105,7 +105,7 @@
         {{-- aprt --}}
         <div class="grid gap-8 mx-auto max-w-screen-2xl grid-col-1 md:grid-cols-2 lg:grid-cols-3">
             <div class="relative">
-                <img class="block object-cover w-full h-full " src="{{ asset('img/section1.png') }}"
+                <img class="block object-cover w-full h-full " src="{{ asset('img/hero.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
                 <a href="/projects"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12 ">L.Ai
@@ -115,7 +115,7 @@
                     designed for working professionals. A block of 8 units of 3 bedroom + BQ in Jahi.</a>
             </div>
             <div class="relative">
-                <img class="block object-cover w-full h-full " src="{{ asset('img/section2.png') }}"
+                <img class="block object-cover w-full h-full " src="{{ asset('img/section2.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
                 <a href="/projects"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">

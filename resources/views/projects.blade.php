@@ -4,7 +4,7 @@
     <div class="p-0">
         <div
             class="max-w-screen-xl pt-12 mx-auto space-y-6 text-center bg-fixed bg-center bg-contain lg:pt-0 md:space-y-8 lg:space-y-8">
-            <img src="{{ asset('img/bg-one.png') }}" alt="{{ env('APP_NAME') }}" class="block object-cover w-full h-auto">
+            <img src="{{ asset('img/hero.jpg') }}" alt="{{ env('APP_NAME') }}" class="block object-cover w-full h-auto">
             <div class="w-full py-8 space-y-20 bg-fixed bg-center bg-no-repeat bg-cover lg:space-y-24">
                 <div class="py-12 space-y-6 bg-cover lg:py-24"
                     style="background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/spiral-bg.png')">
@@ -32,9 +32,9 @@
 
                 <div class="max-w-3xl mx-auto space-y-20 text-center">
                     <h1 class="text-2xl md:text-4xl font-libre">Gallery</h1>
-                    <img src="{{ asset('img/gallery1.png') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
-                    <img src="{{ asset('img/gallery2.png') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
-                    <img src="{{ asset('img/gallery3.png') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
+                    <img src="{{ asset('img/gallery1.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
+                    <img src="{{ asset('img/gallery2.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
+                    <img src="{{ asset('img/gallery3.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
                 </div>
             </div>
             <div class="max-w-5xl mx-auto space-y-20 text-center bg-white">
