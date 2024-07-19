@@ -52,7 +52,7 @@
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ request()->is('/') ? asset('img/whitelogo.png') : asset('img/colorlogo.png') }}"
-                    class="h-20 md:h-24 logo" alt="{{ env('APP_NAME') }}" />
+                    class="h-auto w-[100px] md:w-[150px] py-3 md:py-4 logo" alt="{{ env('APP_NAME') }}" />
                 {{-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span> --}}
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
@@ -182,11 +182,11 @@
                 navbar.style.backgroundColor = '#fff'; // Change to your desired color
                 navbar.style.color = '#000'; // Change to your desired color
                 button.style.color = '#bba260'; // Change to your desired color
-                image.src = './img/colorlogo.png';
+                image.src = './img/colorlogo.svg';
             } else {
                 navbar.style.backgroundColor = 'transparent'; // Reset to transparent
                 navbar.style.color = '#fff'; // Reset to transparent
-                image.src = './img/whitelogo.png';
+                image.src = './img/whitelogo.svg';
             }
         });
     </script>
