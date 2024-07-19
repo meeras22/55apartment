@@ -104,7 +104,7 @@
         <div
             class="flex flex-col flex-wrap max-w-screen-xl p-4 pb-24 mx-auto mt-4 space-y-8 md:pb-40 md:flex-row md:justify-between">
             <div class="w-4/5 md:w-2/5 lg:w-1/4">
-                <img src="{{ asset('img/colorlogo.png') }}" alt="" class="block w-auto h-20 lg:h-24">
+                <img src="{{ asset('img/colorlogo.svg') }}" alt="" class="block w-[150px] h-auto">
             </div>
 
             <div class="w-4/5 space-y-6 md:w-2/5 lg:w-1/4">
