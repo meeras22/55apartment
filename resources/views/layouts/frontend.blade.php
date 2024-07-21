@@ -135,7 +135,7 @@
                     </p>
                     <p class="">
                         <span class="font-medium text-primary">Email:</span>
-                        <a href="mailto:Contact@55apartment.com" class=""> Contact@55apartment.com</a>
+                        <a href="mailto:Contact@55apartment.com" class="">Contact@55apartment.com</a>
                     </p>
                 </div>
             </div>
