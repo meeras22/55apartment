@@ -117,7 +117,7 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/new2.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
-                <a href="/projects"
+                <a href="/project2"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">
                     L.Aii is
                     an
@@ -127,7 +127,7 @@
             <div class="relative">
                 <img class="block object-cover w-full h-full " src="{{ asset('img/new1.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
-                <a href="/projects"
+                <a href="/project3"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">N.Yi
                     is a
                     unit

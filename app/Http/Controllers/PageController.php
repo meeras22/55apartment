@@ -15,4 +15,12 @@ class PageController extends Controller
     {
         return view('projects');
     }
+    public function projectTwo()
+    {
+        return view('la2');
+    }
+    public function projectThree()
+    {
+        return view('la3');
+    }
 }
