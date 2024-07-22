@@ -108,14 +108,14 @@
                 <img class="block object-cover w-full h-full " src="{{ asset('img/hero.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
                 <a href="/projects"
-                    class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12 ">L.Ai
+                    class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12 ">L.A
                     is
                     our
                     pioneer project
                     designed for working professionals. A block of 8 units of 3 bedroom + BQ in Jahi.</a>
             </div>
             <div class="relative">
-                <img class="block object-cover w-full h-full " src="{{ asset('img/section2.JPG') }}"
+                <img class="block object-cover w-full h-full " src="{{ asset('img/new2.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
                 <a href="/projects"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">
@@ -125,7 +125,7 @@
                     block beautiful designed to cater for a modern family on an investment journey.</a>
             </div>
             <div class="relative">
-                <img class="block object-cover w-full h-full " src="{{ asset('img/section3.png') }}"
+                <img class="block object-cover w-full h-full " src="{{ asset('img/new1.jpg') }}"
                     alt="{{ env('APP_NAME') }}">
                 <a href="/projects"
                     class="absolute bottom-0 left-0 right-0 w-full p-6 pb-8 text-white bg-black bg-opacity-50 lg:pb-12">N.Yi
