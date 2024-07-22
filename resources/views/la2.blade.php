@@ -29,7 +29,6 @@
                             sophistication.</p>
                     </div>
                 </div>
-
                 <div class="max-w-3xl mx-auto space-y-12 text-center md:space-y-20">
                     <h1 class="text-2xl md:text-4xl font-libre">Gallery</h1>
                     <img src="{{ asset('img/la2gallery1.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
