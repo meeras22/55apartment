@@ -33,7 +33,7 @@
                 <div class="max-w-3xl mx-auto space-y-12 text-center md:space-y-20">
                     <h1 class="text-2xl md:text-4xl font-libre">Gallery</h1>
                     <img src="{{ asset('img/gly1.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
-                    <img src="{{ asset('img/gallery2.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
+                    <img src="{{ asset('img/gall2.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
                     <img src="{{ asset('img/gly2.jpg') }}" alt="{{ env('APP_NAME') }}" class="block w-full">
                 </div>
             </div>
