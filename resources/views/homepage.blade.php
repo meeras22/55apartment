@@ -5,8 +5,9 @@
         <header class="w-full px-4 py-48 bg-center bg-cover bg-one lg:px-0 md:py-60 lg:py-72 xl:py-80"
             style="background-image: url('/img/hero.jpg')">
             <div class="max-w-screen-xl pt-12 mx-auto space-y-6 text-center lg:pt-0 md:space-y-8 lg:space-y-12">
-                <h2 class="text-xl uppercase font-monserat text-primary">Premium</h2>
-                <h1 class="font-monserat font-medium w-[80%] lg:max-w-[1000px] mx-auto  text-white text-2xl lg:text-6xl">
+                <h2 class="text-xl font-medium uppercase font-monserat text-primary">Premium</h2>
+                <h1
+                    class="font-monserat font-medium w-[80%] lg:max-w-[1000px] mx-auto  text-white text-2xl lg:text-5xl uppercase">
                     Semi-Finished 3
                     Bedroom +BQ
                     Apartment at
@@ -64,7 +65,7 @@
                 </div>
                 <div class="space-y-4 md:space-y-6 flex flex-col items-center w-full md:w-2/5 lg:w-[25%]">
                     <span class="inline-block mx-auto">
-                        <img src="{{ asset('img/quality_icon.png') }}" alt="" class="w-12 xl:w-16">
+                        <img src="{{ asset('img/setting.png') }}" alt="" class="w-12 xl:w-16">
                     </span>
                     <div class="space-y-2 lg:space-y-3">
                         <h1 class="text-lg font-libre">Quality and Space</h1>
